@@ -26,7 +26,17 @@ li{
 }
 .content{
 	background: #ffff;
-	padding: 20px;
+	padding:20px;
+}
+.content2{
+	background: #ffff;
+	padding:20px;
+}
+.add-list{
+	padding:20px;
+}
+.top-list{
+	padding-top: 2px;
 }
 .navbar{
 	margin-bottom: 0;
@@ -51,7 +61,7 @@ margin-top: 10px;
 }
 .list-group-ie{
 	list-style: none;
-	padding: 5px;
+	padding: 3px;
 }
 .caption a,.list-group-ie a{
 	text-decoration: none;
@@ -179,4 +189,36 @@ margin-top: 10px;
 }
 .collapse ul li ul li:hover .menu2{
 display: block;
+}
+.form-control{
+	cursor: pointer;
+}
+.navbar-form .input-group>.form-control {
+    width: 100%;
+  height: 30px;
+    top: 2px;
+}
+/* ********************************************************************/
+.tittledanhgia{
+	background: url('../image/slide/map.gif') no-repeat 11px  ;
+    display: block;
+    float: left;
+    height: 21px;
+    text-align: center;
+    width: 105px;
+}
+.tittledanhgia a{
+	  font-size: 15px;
+	color: #fff;
+	 text-decoration: none;
+    text-transform: uppercase;
+}
+.title{
+	background-color: #D3D3D5;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 7px;
+	font-family: sans-serif;
+	font-weight: bold;
+	position: relative;
 }
