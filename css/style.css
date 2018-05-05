@@ -68,7 +68,7 @@
 
 .menu_top_right ul li:hover ul{
 	display: block;
-	-webkit-transition: all 5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
 }
 .menu_top_right .divider{
 	height: 1px;
@@ -203,6 +203,7 @@
 }
 #nav ul li a:hover {
 	background: #fa8a00;
+
 }
 #nav ul li ul{
 	position: absolute;
@@ -217,6 +218,7 @@
 	border-bottom: 1px solid #fefefe;
 	padding-bottom: 1px;
 	margin-left: 0 !important;	
+	position: relative;
 }
 #nav ul li:hover ul{
 	display: block;
@@ -235,5 +237,18 @@
 	margin-top: 20px;
 }
 .theme-default .nivo-controlNav{
+
+}
+#nav ul li ul li .menu2{
+position: absolute;
+left: 217px;
 display: none;
+top: 0px;
+} 
+#nav ul li ul li:hover .menu2{
+	display: block;
+}
+#nav ul li ul li .menu2 li:hover{
+		background: #fa8a00;
+
 }
