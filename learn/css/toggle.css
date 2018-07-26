@@ -1,0 +1,73 @@
+	@font-face{
+		font-family: Roboto;
+		src:url('../fonts/Roboto-Regular.ttf');
+	}
+	@font-face{
+		font-family: Robotodam;
+		src:url('../fonts/Roboto-Bold.ttf');
+	}
+	@font-face{
+		font-family: Robotovua;
+		src:url('../fonts/Roboto-Medium.ttf');
+	}
+	@font-face{
+		font-family: Robotothin;
+		src:url('../fonts/Roboto-Thin.ttf');
+	}
+	*{
+		margin:0;
+		padding:0;
+	}
+	body{
+		font-family: "Roboto",sans-serif;
+	}
+	h1.tieude{
+		font-family: 'Roboto',sans-serif;
+		text-align: center;
+		font-weight: 200;
+		margin: 14px 0 auto;
+		font-size: 15px;
+	}
+	.noidung{
+		width:50%;
+		margin: auto;
+	}
+	.noidungkhoi .vaicaianh img {
+		float: left;
+		height: 100px;
+		width: 25%;
+		margin-right: 10px;
+	}
+	.vaicaianh{
+		overflow: hidden;
+	}
+	.motkhoi{
+		margin-bottom: 0px;
+		padding-bottom: 0px;
+	}
+	.tdkhoi {
+		cursor: pointer;
+		overflow: hidden;
+	}
+	.tdkhoi .glyphicon{
+		float: right;
+		transition: 0.4s;
+		/*	transform: translateX(100px);*/
+		margin-right: -100px;
+		/*	transform: rotate(180deg);*/
+	}
+	.tdkhoi:hover span{
+		margin-right: 5px;
+		padding-top: 2px;
+		/*transform: translateX(0px);*/
+	}
+	.noidungkhoi .vaicaianh{
+		padding-top: 15px;
+	}
+	.tdkhoi.xanh{
+		color: blue;
+	}
+	.tdkhoi.xanh span{
+		margin-right: 0;
+		transform: rotate(-180deg);
+	}
