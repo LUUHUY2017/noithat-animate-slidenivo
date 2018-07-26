@@ -222,3 +222,30 @@ display: block;
 	font-weight: bold;
 	position: relative;
 }
+.tintuc .glyphicon-play{
+	float: right;
+	font-size: 10px;
+	padding-top: 5px;
+}
+.thumbnail img{
+	transition: 0.8s;
+	padding: 5px 5px;
+}
+.thumbnail img:hover{
+ -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+}
+.thumbnail {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+     border:none; /*1px solid red;*/
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+    overflow:hidden;
+}
